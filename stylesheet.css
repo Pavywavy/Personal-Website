@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+.TopHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #14213D;
+    color: #FFFFFF;
+    padding: 2em 5em 1em 5em;
+    border-bottom: 25px;
+    border-color: #FCA311;
+}
+
+.TopHeader img {
+    max-width: 10em;
+    border-radius: 50%;
+}
+
+.myIntro {
+    display: flex;
+    max-height: 11em;
+}
+
+.myIntro p {
+    display: inherit;
+    min-width: 12em;
+    align-items: center;
+    text-align: center;
+    padding: 28px;
+}
+
+.mainNav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5em;
+    padding-top: 1em;
+}
+
+.mainNav li {
+    list-style: none;
+}
