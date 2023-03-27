@@ -23,7 +23,7 @@
     justify-content: center;
     background-color: #39313C;
     color: #FFFFFF;
-    padding: 2em 5em 2em 5em;
+    padding: 0 5em 2em 5em;
     border-bottom: 25px;
     font-size: 25px;
 }
@@ -35,6 +35,7 @@
 
 .myIntro {
     padding-left: 2em;
+    width: 24em;
 }
 
 .myIntro p {
