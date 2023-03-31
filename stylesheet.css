@@ -52,15 +52,12 @@ h1 {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     background-color: #39313C;
 }
 
-footer ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-
-footer ul img {
+footer img {
     width: 3em;
+    padding: 1em;
 }
