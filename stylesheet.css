@@ -5,17 +5,17 @@
 .mainNav {
     display: flex;
     justify-content: flex-end;
-    gap: 2em;
     padding: 2em 2em 0 2em;
     background-color: #39313C;
-    color: #FFFFFF;
-    font-size: 20px;
 }
 
 .mainNav li {
     list-style: none;
 }
 
+.mainNav img {
+    width: 50px;
+}
 
 .header {
     display: flex;
@@ -29,7 +29,7 @@
 }
 
 .header img {
-    max-width: 13em;
+    max-width: 9em;
     border-radius: 50%;
 }
 
@@ -51,13 +51,3 @@ h1 {
     font-size: 45px;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: #39313C;
-}
-
-footer img {
-    width: 3em;
-    padding: 1em;
-}
