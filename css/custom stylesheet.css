@@ -1,0 +1,30 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+header nav.navbar.bg-body-teriary {
+    background-color: brown !important;
+}
+
+div img:first-of-type {
+    width: 6em;
+    border-radius: 50%;
+}
+
+nav div a {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 328px) {
+    header {
+        padding-bottom: 1em;
+        margin-bottom:1em;
+    }
+
+    body {
+        width: 328px;
+        display: flex;
+        flex-direction: column;
+    }
+  }
