@@ -29,10 +29,11 @@ ul li {
     flex-direction: row;
     justify-content: center;
     gap: 1em;
+    padding: 0;
 }
 
 #socialMediaIcons li img {
-    width: 3em;
+    width: 2em;
     border-radius: 50%;
 }
 
