@@ -2,21 +2,50 @@
     font-family: "Roboto", sans-serif;
 }
 
-header nav.navbar.bg-body-teriary {
-    background-color: brown !important;
+#about  p {
+    text-align: center;
 }
 
-div img:first-of-type {
+#me {
     width: 6em;
     border-radius: 50%;
 }
 
-nav div a {
-    margin: 0;
-    padding: 0;
+nav {
+    display: flex;
+    justify-content: right;
+    gap: 1em;
+    margin: 1em;
 }
 
+/* svg social media icons */
+
+ul li {
+    list-style: none;
+}
+
+#socialMediaIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+#socialMediaIcons li img {
+    width: 3em;
+    border-radius: 50%;
+}
+
+/**/
+
 @media screen and (max-width: 328px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        margin: 1em;
+    }
+
     header {
         padding-bottom: 1em;
         margin-bottom:1em;
@@ -27,4 +56,6 @@ nav div a {
         display: flex;
         flex-direction: column;
     }
+
+
   }
