@@ -4,6 +4,7 @@
 
 #about  p {
     text-align: center;
+    padding: 0 24px;
 }
 
 #me {
@@ -17,7 +18,10 @@ nav {
     gap: 1em;
     margin: 1em;
 }
-
+nav a:nth-of-type(0n+1) {
+    color:gray;
+    text-decoration: none;
+}
 /* svg social media icons */
 
 ul li {
@@ -36,6 +40,21 @@ ul li {
     width: 2em;
     border-radius: 50%;
 }
+h4 {
+    color:grey;
+}
+/**/
+
+/* gallery of images */
+
+#gallery img {
+    max-width: 100%;
+    object-fit: cover;
+}
+/**/
+
+/* fade in for images */
+
 
 /**/
 
