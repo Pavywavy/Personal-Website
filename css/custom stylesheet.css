@@ -2,26 +2,33 @@
     font-family: "Roboto", sans-serif;
 }
 
+header {
+    width:auto;
+    margin:auto
+}
+
 #about  p {
     text-align: center;
-    padding: 0 24px;
+    padding: 0 4em;
+    margin: 0;
 }
 
 #me {
     width: 6em;
     border-radius: 50%;
 }
-
+/* 
 nav {
     display: flex;
     justify-content: right;
     gap: 1em;
     margin: 1em;
 }
-nav a:nth-of-type(0n+1) {
-    color:gray;
+nav > * {
+    color:gray !important;
     text-decoration: none;
-}
+} */
+
 /* svg social media icons */
 
 ul li {
@@ -40,35 +47,75 @@ ul li {
     width: 2em;
     border-radius: 50%;
 }
-h4 {
-    color:grey;
-}
 /**/
 
-/* gallery of images */
 
-#gallery img {
-    max-width: 100%;
+/* cards */
+
+#projects {
+    justify-content: center;
+    display: flex;
+}
+#projects img {
     object-fit: cover;
 }
+
+#cardGroup {
+    justify-content: center;
+    gap: 1em;
+}
+
+#aboutMe {
+    padding: 0 11px;
+}
+
+.card {
+    width: 300px;
+    --bs-card-spacer-x: 0em !important;
+    --bs-card-spacer-y: 0em !important;
+    margin-bottom:1em;
+}
+
+.carousel-inner {
+    height: 0;
+    padding-bottom: 100%;
+  }
+  
+  .carousel-item {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .carousel-item img {
+    height: 100%; 
+    object-fit: cover; 
+  }
+
 /**/
 
-/* fade in for images */
 
 
-/**/
+
+
+/* media queries */
 
 @media screen and (max-width: 328px) {
+
+    #cardGroup {
+        margin: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+
     nav {
         display: flex;
         justify-content: center;
         gap: 1em;
         margin: 1em;
-    }
-
-    header {
-        padding-bottom: 1em;
-        margin-bottom:1em;
     }
 
     body {
@@ -77,5 +124,11 @@ h4 {
         flex-direction: column;
     }
 
+    #projects {
+        flex-direction: column;
+    }
 
+    #contacts {
+        margin-bottom: 5em;
+    }
   }
