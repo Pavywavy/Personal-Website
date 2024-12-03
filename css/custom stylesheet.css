@@ -4,7 +4,9 @@
 
 header {
     width:auto;
-    margin:auto
+    margin:auto;
+    border-bottom: 5px solid #28212d;
+    margin-bottom: 2em;
 }
 
 #about  p {
@@ -17,17 +19,6 @@ header {
     width: 6em;
     border-radius: 50%;
 }
-/* 
-nav {
-    display: flex;
-    justify-content: right;
-    gap: 1em;
-    margin: 1em;
-}
-nav > * {
-    color:gray !important;
-    text-decoration: none;
-} */
 
 /* svg social media icons */
 
@@ -63,6 +54,7 @@ ul li {
 #cardGroup {
     justify-content: center;
     gap: 1em;
+    margin: em 0;
 }
 
 #aboutMe {
@@ -96,16 +88,13 @@ ul li {
 
 /**/
 
-
-
-
-
 /* media queries */
 
 @media screen and (max-width: 328px) {
 
     #cardGroup {
         margin: auto;
+        margin-bottom: 1em;
         flex-direction: column-reverse;
         align-items: center;
     }
