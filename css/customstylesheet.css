@@ -2,6 +2,18 @@
     font-family: "Roboto", sans-serif;
 }
 
+.nav {
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.nav.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
 header {
     width:auto;
     margin:auto;
@@ -41,6 +53,7 @@ ul li {
     justify-content: center;
     gap: 1em;
     padding: 0;
+    margin-top: 5em;
 }
 
 #socialMediaIcons li img {
@@ -109,11 +122,11 @@ ul li {
     }
 
 
-    nav {
+    .nav {
         display: flex;
-        justify-content: center;
-        gap: 1em;
-        margin: 1em;
+        justify-content: right;
+        margin-left: 0;
+        text-decoration: none;
     }
 
     body {
